@@ -1,0 +1,24 @@
+.bg-gradient{
+    background: linear-gradient(270deg, #479FE0 0%, #8FBA66 100%) !important;
+}
+
+.text-gradient{
+        background: -webkit-linear-gradient(270deg, #479FE0 0%, #8FBA66 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.overlay{
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.3) 17.31%, rgba(217, 217, 217, 0) 100%);
+}
+
+.custom-grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 20px 20px; 
+}
+
+.fixed-hight{
+    height: 300px;
+}
